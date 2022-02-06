@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 public class TestController {
 
-    @GetMapping
-    public void getMethod(){
-        System.out.println("this is branch ");
+    @PostMapping
+    public void postMethod(){
+        System.out.println("this is branch 2");
     }
 
 }
